@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #A83931;
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+p {
+  color: #555;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.icons {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.icon {
+  display: inline-block;
+  margin: 0 10px;
+  width: 80px;
+  height: 80px;
+  fill: #A83931;
+  transition: transform 0.3s ease-in-out;
+}
+
+.icon:hover {
+  transform: scale(1.2);
+  fill: #FF5F58;
+}
+
+div {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
